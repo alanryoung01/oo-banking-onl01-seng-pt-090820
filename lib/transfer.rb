@@ -26,7 +26,9 @@ def execute_transaction
   else
     reject_transfer
   end
-  
+
+  def reverse_transfer
+
 
   end
 
