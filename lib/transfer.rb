@@ -34,5 +34,6 @@ def execute_transaction
       self.status = "reversed"
     else
       reject_transfer
+    end
   end
 end
