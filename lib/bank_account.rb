@@ -17,7 +17,7 @@ def display_balance
 end
 
 def valid?
-  balance > && status = "open"
+  balance > && status == "open"
 end
 
 
